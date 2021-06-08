@@ -1,0 +1,57 @@
+@import url('http://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #272424;
+}
+#list2 a{
+  text-decoration: none;
+  color: #eab934;
+}
+.list{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.list ul{
+  display: inline;
+  color: #eab934;
+  margin-right:25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+ .image{
+   position: relative;
+   top: 160px;
+   max-width: 25%;
+   margin-left: 25%;
+   
+   height: 510px;
+ }
+ .textmid{
+   position: relative;
+   bottom:360px;
+   left: 410px;
+   max-width: 25%;
+   border:1px solid #272424;
+   font-family: 'Raleway', sans-serif;
+   font-size: 40px;
+   color: #eab934;
+}
+.textmid p{
+  position: relative;
+  left: 10px;
+  top: 10px;
+  max-width: 70%;
+  border:1px solid #272424;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.ball1{
+  position: relative;
+  left: 35%;
+  bottom: 20px;
+}

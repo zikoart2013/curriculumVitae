@@ -1,0 +1,94 @@
+* 
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #272424;
+}
+.nav{
+  max-height: 100px;
+}
+#list2 a{
+  text-decoration: none;
+  color: #eab934;
+}
+.list{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.list ul{
+  display: inline;
+  color: #eab934;
+  margin-right:25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+ .image{
+   position: relative;
+   top: 160px;
+   max-width: 25%;
+   margin-left: 25%;
+   height: 510px;
+ }
+ .textmid{
+  position: relative;
+  bottom:395px;
+  left: 410px;
+  max-width: 32%;
+  border:1px solid #272424;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: #eab934;
+}
+.textmid p{
+ position: relative;
+ left: 10px;
+ top: 10px;
+ max-width: 70%;
+ border:1px solid #272424;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 30px;
+ color: #ffffff;
+}
+.moi
+{
+  max-height: 30px;
+}
+.lucian{
+  position: relative;
+  left: 55%;
+  height: 500px;
+  width: 520px;
+  bottom: 380px;
+  /*SKILL Bar*/
+}
+.skill{
+font-family: 'Courier New', Courier, monospace;
+position: relative;
+bottom: 720px;
+max-width: 25%;
+}
+.skill p{
+  color: #ddd;
+  margin-left: 5px;
+}
+
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+
+}
+
+.html {width: 70%; background-color: #eab934; margin-bottom: 10px;} /* Green */
+.css {width: 65%; background-color: #eab934;margin-bottom: 10px;} /* Blue */
+.js {width: 45%; background-color: #eab934;margin-bottom: 10px;} /* Red */
+.ph {width: 85%; background-color: #eab934;margin-bottom: 10px;} /* Dark Grey */
+.il {width: 45%; background-color: #eab934; margin-bottom: 10px;} /* Dark Grey */
