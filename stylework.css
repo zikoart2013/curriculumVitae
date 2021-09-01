@@ -51,12 +51,11 @@ body{
 .work h3{
 
   color: azure;
-  position: relative;
+  position: absolute;
   left:420px;
-  bottom: 360px;
-  font-size: 40px;
+  bottom: 460px;
+  font-size: 50px;
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
   color: #eab934;
 }
 
@@ -67,7 +66,7 @@ body{
   background-color:#4b4747;
   position: relative;
   left: 35%;
-  bottom: 300px;
+  bottom:250px;
   border-radius:6px ;
 }
 .second{
@@ -77,7 +76,7 @@ body{
   background-color:#4b4747;
   position: relative;
   left: 65%;
-  bottom: 700px;
+  bottom: 650px;
   border-radius:6px ;
 }
 .src{
@@ -99,3 +98,4 @@ body{
 .src2:hover{
   color: #4b4747;
   opacity: 0.5;
+}
