@@ -49,7 +49,50 @@
   font-size: 30px;
   color: #ffffff;
 }
-
+.buttonabout{
+  position: absolute;
+  margin-top: -330px;
+  margin-left: 420px;
+  width: 130px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #eab934;
+}
+.buttonabout p{
+  max-width: 100px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 7px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #eab934;
+}
+.buttonwork{
+  position: absolute;
+  margin-top: -330px;
+  margin-left: 570px;
+  width: 130px;
+  height: 40px;
+  border-radius: 40px;
+  border: white 1px solid;
+}
+.buttonwork p{
+  max-width: 40px;
+  color:#eab934;
+  margin-left: 40px;
+  margin-top: 7px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.socialball{
+  width: 230px;
+  height: 230px;
+  background-color: #eab934;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -360px;
+  margin-left:-120px;
+}
 .ball1{
   position: relative;
   left: 35%;

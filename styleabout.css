@@ -44,10 +44,11 @@
  position: relative;
  left: 10px;
  top: 10px;
- max-width: 70%;
+ max-width: 80%;
  border:1px solid #272424;
  font-family: 'Courier New', Courier, monospace;
- font-size: 30px;
+ font-size: 27px;
+ text-align: justify;
  color: #ffffff;
 }
 .moi
@@ -59,13 +60,32 @@
   left: 55%;
   height: 500px;
   width: 520px;
-  bottom: 380px;
-  /*SKILL Bar*/
+  bottom: 380px; 
 }
+  .buttonresume{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 550px;
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #eab934;
+  }
+  .buttonresume p{
+    max-width: 30px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 7px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #eab934;
+  }
+  /*SKILL Bar*/
+
 .skill{
 font-family: 'Courier New', Courier, monospace;
 position: relative;
-bottom: 720px;
+bottom: 620px;
 max-width: 25%;
 }
 .skill p{
@@ -76,6 +96,7 @@ max-width: 25%;
 .container {
   width: 100%; /* Full width */
   background-color: #ddd; /* Grey background */
+  border-radius: 15px;
 
 }
 
@@ -84,6 +105,7 @@ max-width: 25%;
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
+  border-radius: 15px;
 
 }
 

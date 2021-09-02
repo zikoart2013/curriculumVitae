@@ -52,50 +52,11 @@ body{
 
   color: azure;
   position: absolute;
-  left:420px;
-  bottom: 460px;
-  font-size: 50px;
+  left:410px;
+  bottom: 405px;
+  font-size: 47px;
   font-family: 'Raleway', sans-serif;
   color: #eab934;
 }
 
- .first{
-  height: 400px;
-  width: 400px;
-  border:1px #4b4747 solid;
-  background-color:#4b4747;
-  position: relative;
-  left: 35%;
-  bottom:250px;
-  border-radius:6px ;
-}
-.second{
-  height: 400px;
-  width: 400px;
-  border:1px #4b4747 solid;
-  background-color:#4b4747;
-  position: relative;
-  left: 65%;
-  bottom: 650px;
-  border-radius:6px ;
-}
-.src{
-  height: 300px;
-  width: 400px;
-  border-radius: 6px;
-}
-
-.src:hover{
-  color: #4b4747;
-  opacity: 0.5;
-  
-}
-.src2{
-  height: 300px;
-  width: 400px;
-  border-radius: 6px;
-}
-.src2:hover{
-  color: #4b4747;
-  opacity: 0.5;
-}
+ 
