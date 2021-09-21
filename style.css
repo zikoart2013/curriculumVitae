@@ -84,17 +84,108 @@
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
 }
-.socialball{
-  width: 230px;
-  height: 230px;
-  background-color: #eab934;
-  border-radius: 50%;
-  position: relative;
-  margin-top: -360px;
-  margin-left:-120px;
-}
+
 .ball1{
   position: relative;
   left: 35%;
   bottom: 20px;
 }
+
+
+/*ICONS ANIMATION*/
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: absolute;
+  top: 320px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  display: block;
+  margin: 5px;
+  background-color: #161414;
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: #161414;
+}
+.social ul li:hover a {
+  color: rgb(255, 255, 255);
+}
+.social ul li:hover i {
+  
+  color: rgb(255, 255, 255);
+  background:#eab934;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #161414;
+  background: #ffffff;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
